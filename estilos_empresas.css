@@ -4,12 +4,26 @@
         background: linear-gradient(45deg, #004471 , #90b9c2 );
 }
 
+.navbar-light {
+    color: white;
+    display: flex;
+}
+
 .logoads {
     height: 80px;
+    width: 200px;
+}
+
+.logocont {
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 30%;
 }
 
 .navbar-brand {
     margin-left: 50px;
+    font-size: 20px;
 }
 
 ul {
