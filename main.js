@@ -1,39 +1,22 @@
-// let usuario = document.getElementById("usuario");
-// let contraseña = document.getElementById("contraseña");
+let usuario;
+let password;
+let correcta  = false;
 
-// function entrar() {
-//     console.log(contraseña.innerHTML);
-// }
+function login() {
 
-
-
-// let password = false;
+    event.preventDefault();
 
 
-// function entrar() {
+    
+    usuario = document.getElementById('usuario').value;
+    password = document.getElementById('password').value;
 
-// while (password === false) {
-//     if (usuario === 'usuario@mail.com' && contraseña === 'gatitos13') {
-//         prompt('Contraseña correcta')
-//         password = true;
-//     } else {
-//         alert('Intenta de nuevo')
-//         password = false;
-//     }
-// }
-// }
+    console.log(usuario + password)
 
-let contraseña;
-let password = false;
-let correcta;
-
-while (correcta === false) {
-    password = prompt('Ingresa contraseña');
-
-    if (contraseña === 'gatitos13') {
-        console.log('Correcta');
-        correcta = true;
+    if (password === 'gatitos13' && usuario === 'usuario@mail.com') {
+        window.open("Inicio.html","_self");
+        console.log('Correcta')
     } else {
-        console.log('Contraseña incorrecta');
+        alert('Contraseña incorrecta');
     }
 }
