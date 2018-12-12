@@ -14,15 +14,18 @@
 
 ul {
     margin-left: 20px;
+    color: white
 }
 .mr-3 {
     height: 100px;
     width: 70px;
 }
 
-
-
 .border {
     width: 100%;
     display: flex;
+}
+
+.navbar {
+    color: white;
 }
