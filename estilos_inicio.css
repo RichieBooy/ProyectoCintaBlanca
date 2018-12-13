@@ -10,6 +10,7 @@
 
 .navbar-brand {
     margin-left: 50px;
+    font-size: 20px;
 }
 
 .titulo {
@@ -20,6 +21,11 @@
     align-items: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: space-around;
 }
 
 .imagenes {
@@ -38,8 +44,6 @@
     margin-top: 150px;
 }
 
-.calendario {
-}
 
 .adsinfo {
     height: 500px;
