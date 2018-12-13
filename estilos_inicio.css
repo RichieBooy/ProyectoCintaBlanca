@@ -48,6 +48,11 @@
     height: 200px;
 }
 
+.card {
+    background: linear-gradient(45deg, #004471 , #90b9c2 );
+}
+
+
 .adsinfo {
     height: 500px;
 }
