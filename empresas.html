@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" href="estilos_empresas.css">
+    <link rel="shortcut icon" href="miniLogoADS.png" />
     <title>Empresas</title>
 </head>
 
@@ -18,8 +19,8 @@
 
     <nav>
         <nav class="navbar navbar-expand-lg navbar-light">
-            <img class="logoads" src="Logotipo ADS 2.png" alt="">
-            <a class="navbar-brand" href="http://ads.com.mx/">ADS / CRM</a>
+            <a href="http://ads.com.mx"> <img class="logoads" src="Logotipo ADS 2.png" alt="logoads"> </a>
+            <div class="navbar-brand" href="#">ADS / CRM </div>
 
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
@@ -35,6 +36,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="https://1drv.ms/x/s!Ajr2_xLL72sE0yZM30Jv7JfUW1zP">FACTURAS</a>
                     </li>
+                   
                 </ul>
             </div>
         </nav>
@@ -50,7 +52,7 @@
         <ul class="list-unstyled">
 
             <li class="media">
-                <span class="border border-primary">
+                <div class="shadow p-3 mb-5">
                     <img class="mr-3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/PAN_logo_%28Mexico%29.svg/1200px-PAN_logo_%28Mexico%29.svg.png"
                         alt="Generic placeholder image">
                     <div class="media-body">
@@ -65,12 +67,12 @@
                             Productos adquiridos: -Comercial -Contabilidad -Nóminas
                         </p>
                     </div>
-                </span>
+                </div>
 
             </li>
 
             <li class="media my-4">
-                <span class="border border-secondary">
+                <div class="shadow p-3 mb-5">
                     <img class="mr-3" src="https://pbs.twimg.com/profile_images/742831285207339008/bi_L0i-u_400x400.jpg"
                         alt="Generic placeholder image">
                     <div class="media-body">
@@ -85,12 +87,12 @@
                             Productos adquiridos: - Contabilidad - XML en línea
                         </p>
                     </div>
-                </span>
+                </div>
 
             </li>
 
             <li class="media">
-                <span class="border border-success">
+                <div class="shadow p-3 mb-5">
                     <img class="mr-3" src="https://2ndvote.com/wp-content/uploads/2016/03/5609347547660288.jpg" alt="Generic placeholder image">
                     <div class="media-body">
                         <h5 class="mt-0 mb-1">PRICEWATERHOUSECOOPERS S.C.</h5>
@@ -104,12 +106,12 @@
                             Productos adquiridos: -Comercial -Contabilidad -Nóminas
                         </p>
                     </div>
-                </span>
+                </div>
 
             </li>
 
             <li class="media my-4">
-                <span class="border border-danger">
+                <div class="shadow p-3 mb-5">
                     <img class="mr-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnaMAmOxrTRbWSV1BOIkdMHrObCJb6uy6q5lzMLag7nuTQsdKy" alt="Generic placeholder image">
                     <div class="media-body">
                         <h5 class="mt-0 mb-1">Empresa #4</h5>
@@ -121,11 +123,11 @@
                             <br>
                             Productos adquiridos: -Contabilidad -Factura electrónica
                     </div>
-                </span>
+                </div>
             </li>
 
             <li class="media my-4">
-                <span class="border border-warning">
+                <div class="shadow p-3 mb-5">
                     <img class="mr-3" src="https://media.licdn.com/dms/image/C4E0BAQEDpQ5EhSZOdw/company-logo_200_200/0?e=2159024400&v=beta&t=CqviV0zugkJjaNrmgBMxS8SEooHMQt0jxtBXRtg311E" alt="Generic placeholder image">
                     <div class="media-body">
                         <h5 class="mt-0 mb-1">Empresa #5</h5>
@@ -137,11 +139,11 @@
                         <br>
                         Productos adquiridos: -Contabilidad -Bancos -Nóminas -Adminpaq
                     </div>
-                </span>
+                </div>
             </li>
 
             <li class="media my-4">
-                <span class="border border-info">
+                <div class="shadow p-3 mb-5">
                     <img class="mr-3" src="data:image/jpeg;base64,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" alt="Generic placeholder image">
                     <div class="media-body">
                         <h5 class="mt-0 mb-1">Empresa #6</h5>
@@ -153,7 +155,7 @@
                         <br>
                         Productos adquiridos: -Contabilidad -Bancos -Factura electrónica
                     </div>
-                </span>
+                </div>
 
             </li>
 

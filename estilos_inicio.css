@@ -1,7 +1,7 @@
 .inicio {
     width: 100%;
-    height: 100vh;
-    background: linear-gradient(45deg, #004471, #90b9c2 );
+    height: 100%;
+    background: linear-gradient(45deg, #004471 , #90b9c2 );
 }
 
 .logoads {
@@ -10,16 +10,41 @@
 
 .navbar-brand {
     margin-left: 50px;
+    font-size: 20px;
 }
 
-.navbar {
-color:  white;
-}
-
-.main {
+.titulo {
+    color: white;
+    height: 100px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
 }
 
-.mr-3 {
-    border: solid 1px red;
+.tarjetas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagenesColaboradores {
+    height: 200px;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 150px;
+}
+
+
+.adsinfo {
+    height: 500px;
 }
