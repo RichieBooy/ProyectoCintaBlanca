@@ -28,14 +28,14 @@
     justify-content: space-around;
 }
 
-.imagenes {
+/* .imagenes {
     display: flex;
     justify-content: space-around;
 }
 
 .imagenesColaboradores {
     height: 200px;
-}
+} */
 
 .contenido {
     display: flex;
@@ -44,6 +44,9 @@
     margin-top: 150px;
 }
 
+.card-img-top {
+    height: 200px;
+}
 
 .adsinfo {
     height: 500px;
