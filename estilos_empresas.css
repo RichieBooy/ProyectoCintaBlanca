@@ -26,3 +26,8 @@ ul {
     width: 80%;
     display: flex;
 }
+
+.btn-lg {
+    margin-right: 50px;
+    background: linear-gradient(25deg, #004471 , #90b9c2 );
+}
