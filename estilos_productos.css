@@ -18,5 +18,8 @@ ul {
     color: white;
 }
 .productos {
-    height: 500px;
+    height: 430px;
+}
+.logo {
+    cursor: pointer;
 }
