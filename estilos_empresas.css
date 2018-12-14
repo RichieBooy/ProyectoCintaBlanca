@@ -27,7 +27,14 @@ ul {
     display: flex;
 }
 
+button {
+    display: flex;
+    justify-content: center;
+}
+
 .btn-lg {
     margin-right: 50px;
+    color: white;
+    border: solid 1px white;
     background: linear-gradient(25deg, #004471 , #90b9c2 );
 }
