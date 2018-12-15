@@ -13,9 +13,13 @@
     font-size: 20px;
 }
 
+.navbar-light {
+    background-color: #6193a8;
+}
+
 ul {
-    margin-left: 20px;
     color: white;
+    margin-left: 50px;
 }
 .mr-3 {
     height: 100px;
