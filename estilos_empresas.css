@@ -42,3 +42,9 @@ button {
     border: solid 1px white;
     background: linear-gradient(25deg, #004471 , #90b9c2 );
 }
+
+h3 {
+    color: white;
+    margin-left: 50px;
+    display: inline-block;
+}
